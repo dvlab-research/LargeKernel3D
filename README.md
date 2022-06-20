@@ -32,4 +32,3 @@ If you find this project useful in your research, please consider citing:
 3. [CenterPoint](https://github.com/tianweiy/CenterPoint) ![GitHub stars](https://img.shields.io/github/stars/tianweiy/CenterPoint.svg?style=flat&label=Star)
 4. [spconv](https://github.com/traveller59/spconv) ![GitHub stars](https://img.shields.io/github/stars/traveller59/spconv.svg?style=flat&label=Star)
 5. [MinkowskiNet](https://github.com/chrischoy/SpatioTemporalSegmentation) ![GitHub stars](https://img.shields.io/github/stars/chrischoy/SpatioTemporalSegmentation.svg?style=flat&label=Star)
-6. [MinkowskiEngine](https://github.com/NVIDIA/MinkowskiEngine) ![GitHub stars](https://img.shields.io/github/NVIDIA/MinkowskiEngine/spconv.svg?style=flat&label=Star)
