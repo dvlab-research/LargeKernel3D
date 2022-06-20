@@ -1,5 +1,5 @@
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]()
-![visitors](https://visitor-badge.glitch.me/badge?page_id=dvlab-research/FocalsConv)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=dvlab-research/LargeKernel3D)
 
 
 # Scaling up Kernels in 3D CNNs
