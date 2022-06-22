@@ -1,4 +1,4 @@
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]()
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2206.10555)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=dvlab-research/LargeKernel3D)
 
 
@@ -6,7 +6,7 @@
 
 This is the official implementation of LargKernel3D, high-performance 3D convolutional backbone networks for 3D tasks, object detection and semantic segmentation. For more details, please refer to:
 
-**Scaling up Kernels in 3D CNNs [[Paper]()]** <br />
+**Scaling up Kernels in 3D CNNs [[Paper](https://arxiv.org/abs/2206.10555)]** <br />
 Yukang Chen, Jianhui Liu, Xiaojuan Qi, Xiangyu Zhang, Jian Sun, Jiaya Jia<br />
 
 <p align="center"> <img src="docs/imgs/Large-small-kernels.png" width="100%"> </p>
