@@ -11,7 +11,7 @@ Yukang Chen, Jianhui Liu, Xiaojuan Qi, Xiangyu Zhang, Jian Sun, Jiaya Jia<br />
 
 <p align="center"> <img src="docs/imgs/Large-small-kernels.png" width="100%"> </p>
 
-## Code is comming!
+The code for spatial sparse conv is in this repo [spconv-plus](https://github.com/dvlab-research/spconv-plus). The overall training code for this paper will be released latter.
 
 ## Citation 
 If you find this project useful in your research, please consider citing:
