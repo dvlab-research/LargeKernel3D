@@ -40,7 +40,8 @@ If you find this project useful in your research, please consider citing:
 
 ```
 ## Acknowledgement
--  This work is built upon the [FocalsConv](https://github.com/dvlab-research/FocalsConv) for object detection and [Stratified-Transformer](https://github.com/dvlab-research/Stratified-Transformer) for semantic segmentation.
+-  This work is built upon [FocalsConv](https://github.com/dvlab-research/FocalsConv) for object detection.
+- This work is built upon [Stratified-Transformer](https://github.com/dvlab-research/Stratified-Transformer) for semantic segmentation.
 
 ## Our Works in LiDAR-based 3D Computer Vision
 - **VoxelNeXt (CVPR 2023)** [[Paper]](https://arxiv.org/abs/2303.11301) [[Code]](https://github.com/dvlab-research/VoxelNeXt) Fully Sparse VoxelNet for 3D Object Detection and Tracking.
