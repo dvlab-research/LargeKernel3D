@@ -37,8 +37,8 @@ If you find this project useful in your research, please consider citing:
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2023}
 }
-
 ```
+
 ## Acknowledgement
 -  This work is built upon [FocalsConv](https://github.com/dvlab-research/FocalsConv) for object detection.
 -  This work is built upon [Stratified-Transformer](https://github.com/dvlab-research/Stratified-Transformer) for semantic segmentation.
