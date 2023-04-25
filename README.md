@@ -20,10 +20,10 @@ For more details, please refer to:
 | +test aug  |      test      | 71.1 | 74.2 |         [Submission](https://drive.google.com/file/d/1eQkQRA7YPAn6DuEh6oUA_VOv6vvs1csF/view?usp=share_link)         |
 
 
-| ScanNetv2 Semantic Segmentation |  Set | mIoU |   Download  |
-|-------------------------------------------------------------------------------------|:----:|:----:|:-----------:|
-| [LargeKernel3D]()  | val | 73.5 |  Pre-trained |
-| [LargeKernel3D]()  | test | 73.9 |  [Submission](https://drive.google.com/file/d/18Xm9ZQukxXwR5qQDazICHD7Zhg48CpCw/view?usp=share_link) |
+| ScanNetv2 Semantic Segmentation |  Set | mIoU |                                               Download                                                |
+|-------------------------------------------------------------------------------------|:----:|:----:|:-----------------------------------------------------------------------------------------------------:|
+| LargeKernel3D  | val | 73.5 |                                             [Pre-trained]                                             |
+| LargeKernel3D  | test | 73.9 | [[Submission]](https://drive.google.com/file/d/18Xm9ZQukxXwR5qQDazICHD7Zhg48CpCw/view?usp=share_link) |
 
 <p align="center"> <img src="imgs/ReceptiveFields.png" width="100%"> </p>
 
