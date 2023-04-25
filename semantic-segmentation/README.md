@@ -2,6 +2,8 @@
 
 This is the semantic segmentation part of LargeKernel3D, we follow the settings in [Stratified-Transformer](https://github.com/dvlab-research/Stratified-Transformer) for training and testing. 
 
+Code will be released in a few days.
+
 1. Install dependencies
 ```
 pip install -r requirements.txt
