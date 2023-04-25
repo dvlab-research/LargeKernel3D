@@ -5,7 +5,7 @@ This is the object detection part of LargeKernel3D, we directly follow the setti
 You can directly put the configs and backbone network files into it. And then follow the instruction in [FocalsConv-CenterPoint](https://github.com/dvlab-research/FocalsConv/tree/master/CenterPoint) for training and testing.
 Both LiDAR-only and multi-modal settings are supported.
 
-Note that if you installed spconv-plus, you can use `spatialgroupconvv2` in the network. Otherwise, `spatialgroupconv` is used by default.
+Note that if you installed [spconv-plus](https://github.com/dvlab-research/spconv-plus), you can use `spatialgroupconvv2` in the network. Otherwise, `spatialgroupconv` is used by default.
 
 ### Experimental results
 
