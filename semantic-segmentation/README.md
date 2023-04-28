@@ -2,21 +2,20 @@
 
 This is the semantic segmentation part of LargeKernel3D, we follow the settings in [Stratified-Transformer](https://github.com/dvlab-research/Stratified-Transformer) for training and testing. 
 
-1. Install dependencies
+### 1. Install dependencies
 ```
 pip install -r requirements.txt
 ```
 
-2. Datasets Preparation
-### ScanNetv2
+### 2. Datasets Preparation
 Please refer to https://github.com/dvlab-research/PointGroup for the ScanNetv2 preprocessing. Then change the `data_root` entry in the .yaml configuration file accordingly.
 
-3. Training
+### 3. Training
 ```
 python3 train.py --config config.yaml
 ```
 
-4. Testing
+### 4. Testing
 For testing, first change the `model_path`, `save_folder` and `data_root_val` (if applicable) accordingly. Then, run the following command. 
 ```
 python3 test.py --config config.yaml
