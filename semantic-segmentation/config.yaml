@@ -1,0 +1,66 @@
+DATA:
+  data_name: scannetv2_me
+  data_root: /data/datasets/scannet_processed/
+  classes: 20
+  stu_fea_dim: 3
+  teach_fea_dim: 6
+  voxel_size: 0.015
+  voxel_max: 300000
+  max_batch_points: 1200000
+  loop: 1
+
+TRAIN:
+  aug: True
+  aug_type: minkows
+  rotation_axis: z
+  is_temporal: False
+  data_aug_color_trans_ratio: 0.1
+  data_aug_color_jitter_std: 0.05
+
+  #### Model ####
+
+  scheduler_update: step
+  scheduler: Poly
+  power: 0.9
+  optimizer: SGD
+  arch: LargeKernel3D
+  use_xyz: False
+  stu_concat_xyz: False
+  sync_bn: True
+  ignore_label: -100
+  train_gpu: [0, 1, 2, 3]
+  workers: 16  # data loader workers
+  batch_size: 8 # batch size for training
+  batch_size_val: 8 # batch size for validation during training, memory and speed tradeoff
+  base_lr: 0.1
+  epochs: 600
+  start_epoch: 0
+  step_epoch: 30
+  multiplier: 0.1
+  dampening: 0.1
+  momentum: 0.9
+  weight_decay: 0.001 #0.025 #0.0005
+  drop_rate: 0.5
+  manual_seed: 123
+  print_freq: 1
+  save_freq: 1
+  save_path: /data/scannet_models/largekernel3d
+  resume: /data/scannet_models/largekernel3d
+  evaluate: True  # evaluate on validation set, extra gpu memory needed and small batch_size_val is recommend
+  eval_freq: 1
+Distributed:
+  dist_url: tcp://127.0.0.1:6788
+  dist_backend: 'nccl'
+  multiprocessing_distributed: True
+  world_size: 1
+  rank: 0
+
+TEST:
+  val_list: /data/datasets/scannet_processed/scannetv2_val.txt
+  split: val  # split in [train, val and test]
+  test_gpu: [0, 1, 2, 3]
+  test_workers: 4
+  batch_size_test: 4
+  model_path: /data/scannet_models/largekernel3d/model/model_best.pth
+  save_folder: /data/scannet_models/largekernel3d/runs
+  names_path: data/scannet/scannet_names.txt
