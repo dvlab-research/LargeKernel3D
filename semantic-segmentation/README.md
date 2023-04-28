@@ -2,8 +2,6 @@
 
 This is the semantic segmentation part of LargeKernel3D, we follow the settings in [Stratified-Transformer](https://github.com/dvlab-research/Stratified-Transformer) for training and testing. 
 
-Code will be released in a few days.
-
 1. Install dependencies
 ```
 pip install -r requirements.txt
@@ -28,7 +26,7 @@ Note that if you installed [spconv-plus](https://github.com/dvlab-research/spcon
 
 ### Experimental results
 
-| ScanNetv2 Semantic Segmentation |  Set | mIoU |                                               Download                                                |
-|-----------------------------------------------------------------------------------|:----:|:----:|:-----------------------------------------------------------------------------------------------------:|
-| LargeKernel3D | val | 73.5 |                                             [Pre-trained]                                             |
-| LargeKernel3D | test | 73.9 | [[Submission]](https://drive.google.com/file/d/18Xm9ZQukxXwR5qQDazICHD7Zhg48CpCw/view?usp=share_link) |
+| ScanNetv2 Semantic Segmentation |  Set | mIoU |
+|-----------------------------------------------------------------------------------|:----:|:----:|
+| LargeKernel3D | val | 73.5 |
+| LargeKernel3D | test | 73.9 |
