@@ -8,7 +8,7 @@ pip install -r requirements.txt
 ```
 
 ### 2. Datasets Preparation
-Please refer to https://github.com/dvlab-research/PointGroup for the ScanNetv2 preprocessing. Then change the `data_root` entry in the .yaml configuration file accordingly.
+Please refer to https://github.com/dvlab-research/PointGroup for the ScanNetv2 preprocessing. Then change the `data_root` entry in the config.yaml configuration file accordingly.
 
 ### 3. Training
 ```
