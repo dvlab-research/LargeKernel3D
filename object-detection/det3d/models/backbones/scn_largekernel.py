@@ -7,6 +7,8 @@ from torch import nn, einsum
 from ..registry import BACKBONES
 from ..utils import build_norm_layer
 from functools import partial
+from timm.models.layers import trunc_normal_
+
 
 def conv(in_planes, out_planes, kernel_size=3, stride=1, indice_key=None, bias=True):
     """convolution with padding"""
