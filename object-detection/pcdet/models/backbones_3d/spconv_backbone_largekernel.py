@@ -227,7 +227,7 @@ class VoxelResBackBone8xLargeKernel3D(nn.Module):
 
         self.conv_out = spconv.SparseSequential(
             # [200, 150, 5] -> [200, 150, 2]
-            spconv.SparseConv3d(128, 128, 3, stride=1, padding=1,
+            spconv.SparseConv3d(128, 128, (3, 1, 1), stride=(2, 1, 1), padding=0,
                                 bias=False, indice_key='spconv_down2'),
             norm_fn(128),
             nn.ReLU(),
