@@ -30,7 +30,7 @@ model = dict(
     ),
     backbone=dict(
         type="SpMiddleResNetFHDLargeKernel", num_input_features=5, ds_factor=8,
-        kernel_sizes=[7, 7, 7, 3], conv_types=['spatialgroupconv', 'spatialgroupconv', 'spatialgroupconv', 'common'],
+        kernel_sizes=[7, 5, 5, 5], conv_types=['spatialgroupconv', 'common', 'common', 'common'],
         kernel_sizes_downsample=[5, 5],
     ),
     neck=dict(
